@@ -9,4 +9,4 @@
 - **Setup Instructions**:
   - Ensure you have Java and Maven installed.
   - Run the tests using `testng.xml`.
-  - **Additional Feature**: Includes a `postman-project.json` file, easily importable into Postman for manual API testing.
+- **Additional Feature**: Includes a `postman-project.json` file, easily importable into Postman for manual API testing.

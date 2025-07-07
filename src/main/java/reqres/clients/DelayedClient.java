@@ -6,10 +6,10 @@ import io.restassured.response.Response;
  * Client for retrieving delayed user responses from the API.
  */
 public class DelayedClient extends BaseClient {
-    public Response delayed(int page) {
-        // https://reqres.in/api/users?delay=3
+    public Response delayed(int delayTime) {
+        // https://reqres.in/api/users?delay=2
         return request
-                .queryParam("delay", page)
+                .queryParam("delay", delayTime)
                 .get("users");
     }
 }

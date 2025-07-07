@@ -1,6 +1,6 @@
 ### REST Assured API Testing
 
-- **Tools/Tech**: Java, REST Assured, TestNG
+- **Tools/Tech**: Java(OOP), **REST Assured**, TestNG, Maven
 - **Description**: API test automation for the public [Reqres API](https://reqres.in), demonstrating REST API testing skills.
 - **Highlights**:
   - Clean client-based structure for reusability

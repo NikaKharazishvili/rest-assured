@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ReqresAPI Suite">
+    <test name="User Tests">
+        <classes>
+            <class name="reqres.tests.UserTest"/>
+            <class name="reqres.tests.ResourceTest"/>
+            <class name="reqres.tests.UserCrudTest"/>
+            <class name="reqres.tests.RegisterTest"/>
+            <class name="reqres.tests.LoginTest"/>
+            <class name="reqres.tests.DelayedTest"/>
+        </classes>
+    </test>
+</suite>
